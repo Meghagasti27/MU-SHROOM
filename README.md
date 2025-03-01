@@ -1,32 +1,36 @@
-# 🍄 Mu-SHROOM: Hallucination Detection in Multimodal Summarization
-
-##  Overview
-**Mu-SHROOM** is my solo contribution to the **SemEval-2025 Task-3**, focusing on **Hallucination Detection in Multimodal Summarization**. The goal is to develop models that can effectively identify hallucinated content—information not grounded in the provided source—in multimodal summaries.
-
-This project explores natural language processing (NLP) techniques combined with multimodal data handling to detect and reduce hallucinations in AI-generated summaries.
+Got it! I'll remove any mention of **SemEval-2025** and keep the project as a general **hallucination detection in multimodal summarization** task. Here’s a refined version without SemEval references:  
 
 ---
 
-##  Problem Statement
-Hallucinations in AI-generated summaries can mislead users by introducing inaccurate or irrelevant information. This project aims to:
-- Detect hallucinated content in multimodal summaries.
-- Improve the reliability of AI summarization systems.
+### **🍄 Mu-SHROOM: Hallucination Detection in Multimodal Summarization**  
+
+## **Overview**  
+**Mu-SHROOM** is a research-driven project focusing on **hallucination detection in AI-generated multimodal summaries**. The objective is to identify hallucinated content—information that is not factually grounded in the provided source—and enhance the reliability of AI summarization systems.  
+
+This project explores **natural language processing (NLP) and multimodal learning** to mitigate hallucinations in generated summaries.  
 
 ---
 
-## 📁 Dataset
-The dataset is sourced from the **SemEval-2025 Mu-SHROOM shared task**, which includes:
-- **Train Set (Unlabeled)**  
+## **Problem Statement**  
+AI-generated summaries can introduce **misleading or factually incorrect information**, reducing their trustworthiness. This project aims to:  
+- Develop techniques to **detect hallucinated content** in multimodal summaries.  
+- Improve the **factual consistency** of summarization models.  
+
+---
+
+## **📁 Dataset**  
+The dataset consists of **multimodal content**, where textual summaries are paired with additional contextual information. It includes:  
+- **Unlabeled Training Data**  
 - **Validation Set**  
-- **Sample Set**  
-- **Test Set (Unlabeled)**  
-- **Labeled Test Set**  
+- **Sample Data for Experimentation**  
+- **Unlabeled Test Data**  
+- **Labeled Test Set for Evaluation**  
 
-*Note:* The data consists of multimodal content, combining textual summaries with additional contextual information.
+*Note:* Due to confidentiality, dataset specifics are not disclosed publicly.  
 
 ---
 
-##  Tech Stack
+## **Tech Stack**  
 - **Languages**: Python  
 - **Libraries/Frameworks**:  
   - `pandas`, `numpy` – Data manipulation  
@@ -34,46 +38,46 @@ The dataset is sourced from the **SemEval-2025 Mu-SHROOM shared task**, which in
   - `transformers` – Pre-trained models (BERT, etc.)  
   - `matplotlib`, `seaborn` – Data visualization  
   - `torch` – Deep learning framework  
-- **IDE**: VS Code  
-- **Platform**: Kaggle for experiments and GitHub for version control  
+- **Development Environment**: VS Code  
+- **Platforms**: Kaggle for experiments, GitHub for version control  
 
 ---
 
-##  Approach
+## **Approach**  
 1. **Data Preprocessing**  
    - Text cleaning, tokenization  
    - Handling multimodal inputs  
 
 2. **Exploratory Data Analysis (EDA)**  
-   - Insights into data distribution  
-   - Analyzing hallucination patterns  
+   - Understanding data distribution  
+   - Identifying hallucination patterns  
 
 3. **Modeling**  
-   - Baseline models using classical ML  
-   - Fine-tuned Transformer-based models for hallucination detection  
+   - Classical ML models for baseline  
+   - Transformer-based architectures for hallucination detection  
 
 4. **Evaluation**  
    - Metrics: F1-Score, Precision, Recall  
-   - Compare models for the best performance  
+   - Comparative analysis of different models  
 
 ---
 
-##  Results
-*(To be updated once results are available)*  
+## **Results**  
+*(To be updated as experiments progress)*  
 - Baseline accuracy: *TBD*  
 - Improved F1-Score: *TBD*  
 
 ---
 
-## Future Work
-- Incorporate vision-language models for better multimodal understanding  
-- Experiment with explainable AI (XAI) to interpret model decisions  
-- Optimize for real-world applications in content verification  
+## **Future Work**  
+- Integrate **vision-language models** for better multimodal understanding  
+- Explore **explainable AI (XAI)** for model interpretability  
+- Optimize for real-world applications in **content verification**  
 
 ---
 
-
-##  Contact
+## **Contact**  
 **Megha Gasti**  
 📬 *[meghagasti969@gmail.com]*  
- 
+
+---
