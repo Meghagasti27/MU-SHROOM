@@ -1,7 +1,3 @@
-Got it! I'll remove any mention of **SemEval-2025** and keep the project as a general **hallucination detection in multimodal summarization** task. Here’s a refined version without SemEval references:  
-
----
-
 ### **🍄 Mu-SHROOM: Hallucination Detection in Multimodal Summarization**  
 
 ## **Overview**  
