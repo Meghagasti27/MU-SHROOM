@@ -1,0 +1,11 @@
+# Ignore datasets
+data/
+
+# Ignore Jupyter checkpoints
+*.ipynb_checkpoints
+
+# Ignore model weights or logs
+*.ckpt
+*.csv
+*.json
+*.log
